@@ -25,6 +25,8 @@ export default function Post() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod
           tellus id condimentum lobortis. Cras nec convallis massa. Sed eleifend
           sodales nisl ac bibendum</p>
+          
         </div>
+        
   )
 }

@@ -1,21 +1,24 @@
 .post {
-    width: 385px;
+    width: 250px;
     margin: 15px 25px 40px 25px;
 
 }
 
 .postImage {
     width: 100%;
-    height: 280px;
+    height: 200px;
     object-fit: cover;
-    box-shadow: 3px 3px 20px rgb(57, 48, 48);
+    box-shadow: 3px 3px 50px rgb(57, 48, 48);
     border-radius: 7px;
+
+    
 }
 
 .postInfo {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .postCat {
@@ -28,7 +31,7 @@
 }
 
 .postTitle {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
     margin-top: 10px;
     cursor: pointer;
