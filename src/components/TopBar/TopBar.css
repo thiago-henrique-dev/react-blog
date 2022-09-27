@@ -10,6 +10,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 999;
+    border: 1px solid #444;
+    box-shadow: 3px 3px 20px rgb(57, 48, 48);
+
     
 }
 
@@ -18,6 +22,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .topCenter {
@@ -29,6 +34,7 @@
     margin-right: 10px;
     color: #444;
     cursor: pointer;
+
 }
 
 .topImg {
@@ -36,6 +42,8 @@
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
+    box-shadow: 3px 3px 20px rgb(57, 48, 48);
+
 }
 
 .topList {
@@ -50,12 +58,13 @@
     margin-right: 20px;
     font-size: 18px;
     font-weight: 300;
+    
 }
 
 .topSearchIcon {
     font-size: 18px;
     color: #666;
     cursor: pointer;
-    margin-left: 15px;
+    margin-left: 30px;
 
 }
