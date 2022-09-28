@@ -1,9 +1,9 @@
 const express = require("express");
-const bcrypt = require("bcrypt")
 const app = express();
 const dotenv = require("dotenv");
 const mongoose = require("mongoose")
 const authRoute = require("./routes/auth")
+const userRoute = require("./routes/users")
 
 dotenv.config();
 
@@ -18,6 +18,7 @@ const connect = () => {
 }
 
 app.use("/api/auth", authRoute)
+app.use("/api/users", userRoute)
 
 app.listen("5000", () => {
     connect()
