@@ -1,12 +1,13 @@
 
 import TopBar from "./components/TopBar/TopBar";
-import Settings from "./pages/Settings/Settings";
+import Login from "./pages/Login/Login";
+
 
 function App() {
   return (
     <>
     <TopBar/>
-    <Settings/>
+    <Login/>
     </>
   
   );
